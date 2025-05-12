@@ -1,4 +1,4 @@
-import ContactBanner from '@/component/ContactBanner'
+import PageBanner from '@/component/Banner/PageBanner'
 import ContactPage from '@/component/ContactPage'
 import React from 'react'
 
@@ -6,8 +6,9 @@ function Page() {
   return (
     <div>
 
-        <ContactBanner></ContactBanner>
-        <div className='min-h-screen'></div>
+        <PageBanner>
+          CONTACT
+        </PageBanner>
         <ContactPage></ContactPage>
     </div>
   )

@@ -2,13 +2,15 @@
 
 import React from 'react';
 import PortfolioWorkCard from '@/component/Card/PortfolioWorkCard';
-import WorkBanner from '@/component/WorkBanner';
-
+import WorkBanner from '@/component/Banner/WorkBanner';
+import PageBanner from '@/component/Banner/PageBanner';
 function Page() {
   return (
     <div className="px-4 py-10 "> {/* Light background wrapper */}
-      <WorkBanner />
-      <div className='min-h-screen'></div>
+      <PageBanner>
+
+        Works‘ <div className="text-[5rem] text-nowrap">19-24</div>
+      </PageBanner>
       {/* Section with white background */}
       <div className="bg-white py-30 px-4 mt-10 z-10">
         <div className="grid bg-white grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">

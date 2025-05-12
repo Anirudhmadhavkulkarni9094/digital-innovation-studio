@@ -37,7 +37,7 @@ function Hero() {
   const xSlide = useTransform(
     scrollY,
     [0, 600],
-    inView ? [windowWidth + 1100, -windowWidth - 4500] : [0, 0] // Apply only when inView
+    inView ? [windowWidth +200, -windowWidth - 4500] : [0, 0] // Apply only when inView
   );
 
   return (
